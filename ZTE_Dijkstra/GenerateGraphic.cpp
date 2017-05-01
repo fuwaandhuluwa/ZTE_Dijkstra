@@ -1,4 +1,4 @@
-/*********************************
+/***********************************************************
 
 Generate Graphic source file
 
@@ -6,7 +6,7 @@ Author:		 ShooterIT
 Datetime:    2017-4-30 16:26:12
 Description: some algorithms about generate graphic
 
-*********************************/
+***********************************************************/
 
 #include <iostream>
 #include <fstream>
@@ -14,7 +14,7 @@ Description: some algorithms about generate graphic
 #include <set>
 #include <ctime>
 
-/**********************************
+/***********************************************************
 
 输入说明(以官网case为例)：
 	0 17 (起点 终点, 起点为最小的节点id，终点为最大的节点id)
@@ -36,7 +36,7 @@ Description: some algorithms about generate graphic
 
 	0 2 4 5 6 7 8 14 13 12 16 17 (路径,以空格间隔路径上节点id)
 
-*/
+***********************************************************/
 
 
 //最大节点个数
@@ -61,7 +61,7 @@ int main(int argc, char *argv[])
 	//}
 
 	//生成文件位置
-	const char * file = "..\\ShortPath\\input.txt"; //argv[1]; 
+	const char * file = "case.txt"; //argv[1]; 
 	const double ratio = 0.01; //产生边的概率,小图需要适当增加概率
 	const int	 vert_num = 1000; //最大的顶点
 	const int	 weight_max = 10;	//边的最大权重
