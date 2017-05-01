@@ -5,10 +5,9 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZTE_Dijkstra", "ZTE_Dijkstra\ZTE_Dijkstra.vcxproj", "{5B29FE97-C939-4A4F-8865-6D120501B254}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "测试用例", "测试用例", "{7F6BD826-F2AD-469D-BCF6-2604FB3BCC97}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "测试用例", "测试用例", "{BE802B52-B44A-445B-AEF5-6F048D92AF8C}"
 	ProjectSection(SolutionItems) = preProject
-		case0.txt = case0.txt
-		result0.txt = result0.txt
+		case1.txt = case1.txt
 	EndProjectSection
 EndProject
 Global
